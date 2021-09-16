@@ -59,7 +59,7 @@ namespace PolioMonitoringSystem.Data.Database.Tables
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Initial Catalog=PMS;user id=majid;password=asa@121;Data Source=172.16.0.6");
+                optionsBuilder.UseSqlServer("Initial Catalog=PMS;user id=majid;password=asa@11121;Data Source=172.17.0.450");
             }
         }
 
